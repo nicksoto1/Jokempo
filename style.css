@@ -1,0 +1,104 @@
+* {
+	font-family: Fira Code ;
+	font-weight: 400;
+}
+
+#titulo {
+	color: #0984e3;
+	text-align: center;
+}
+
+#placar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#jogador,
+#computador {
+	position: relative;
+	flex-grow: 1;
+	border-radius: 20px;
+	width: 100px;
+	padding: 20px;
+	color: #fff;
+}
+
+#jogador {
+	background-color:#74b9ff ;
+}
+
+#computador {
+	background-color: #ff7675;
+}
+
+#versus {
+	font-size: 40px;
+	text-align: center;
+	width: 100px;
+}
+
+#jogador-nome,
+#computador-nome {
+	margin: 0.5em;
+	padding: 0;
+}
+
+#jogador-nome {
+	text-align: left;
+}
+
+#computador-nome {
+	text-align: right;
+}
+
+#jogador-pontos,
+#computador-pontos {
+	position: absolute;
+	top: 8px;
+	font-size: 32px;
+}
+
+#jogador-pontos {
+	right: 20px;
+}
+
+ul#jogador-escolha,
+ul#computador-escolha {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+ul#jogador-escolha li,
+ul#computador-escolha li {
+	display: inline;
+	
+}
+
+ul#jogador-escolha li a,
+ul#computador-escolha li a {
+	opacity: .3;
+}
+
+ul#jogador-escolha li a:hover,
+ul#jogador-escolha li a.selecionado,
+ul#computador-escolha li a.selecionado {
+	opacity: 1;
+}
+
+ul#jogador-escolha li a img,
+ul#computador-escolha li a img {
+	max-width: 50px;
+	
+}
+
+#mensagemResultado{
+text-align: center;
+background-color: #b2bec3;
+font-size: 32px;
+border-radius: 20px;
+margin: 5em 10em;
+padding: 20px;
+}
