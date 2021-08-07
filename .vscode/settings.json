@@ -1,3 +1,7 @@
 {
-	"editor.fontFamily": "'Fira Code', 'monospace','Arial', 'Droid Sans Fallback'"
+	"editor.fontFamily": "'Fira Code Medium', 'monospace','Arial', 'Droid Sans Fallback'",
+	"editor.inlayHints.fontFamily": "'Fira Code Light', 'monospace', monospace, 'Droid Sans Fallback'",
+	"editor.lineHeight": 35,
+	"editor.inlayHints.fontSize": 121212,
+	"editor.suggestFontSize": 12
 }
