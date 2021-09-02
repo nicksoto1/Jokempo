@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,36 +19,35 @@
     <h1 id="title">Pedra,Papel e Tesoura</h1>
     <div id="main">
       <div id="scoreboard"></div>
-
-      <div id="player-container">
+      <div id="player">
         <div id="player-description">
           <h2 id="player-name">Player 1: You</h2>
           <span id="player-score">Score: 0</span>
         </div>
 
-        <div id="player-images">
-        <div id="item" onclick="jogar(1)"><img src="img/rock.png" class="gameImg" /></div>
-        <div id="item" onclick="jogar(2)"><img src="img/paper.png" class="gameImg" /></div>
-        <div id="item" onclick="jogar(3)"><img src="img/scissor.png" class="gameImg" /></div>
+        <div id="player-pick">
+        <div id="player-pick-1" onclick="player(1)"><img src="img/rock.png" class="gameImg" /></div>
+        <div id="player-pick-2"onclick="player(2)"><img src="img/paper.png" class="gameImg" /></div>
+        <div id="player-pick-3"onclick="player(3)"><img src="img/scissor.png" class="gameImg" /></div>
       </div>
       </div>
 
       <div id="versus">vs</div>
 
-      <div id="computer-container">
+      <div id="computer">
         <div id="computer-description">
           <h2 id="computer-name">Player 2: Computer</h2>
           <span id="computer-score">Score: 0</span>
         </div>
 
-        <div id="computer-images">
-        <div id="item"><img src="img/rock.png"  class="gameImg" /></div>
-        <div id="item"><img src="img/paper.png" class="gameImg" /></div>
-        <div id="item"><img src="img/scissor.png" class="gameImg" /></div>
+        <div id="computer-pick">
+        <div id="computer-pick-1"><img src="img/rock.png"  class="gameImg" /></div>
+        <div id="computer-pick-2"><img src="img/paper.png" class="gameImg" /></div>
+        <div id="computer-pick-3"><img src="img/scissor.png" class="gameImg" /></div>
       </div>
       </div>
     </div>
 
-    <h3 id="result">Resultado</h3>
+    <div id="messageResult">&nbsp</h3>
   </body>
 </html>
