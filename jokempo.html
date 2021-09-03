@@ -2,16 +2,13 @@
 <html lang="pt">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=
-  , initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
 
     <!-- Link CSS e JavaScript-->
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="script.js"></script>
+
     <title>Jokempo</title>
   </head>
 
@@ -21,15 +18,15 @@
       <div id="scoreboard"></div>
       <div id="player">
         <div id="player-description">
-          <h2 id="player-name">Player 1: You</h2>
+          <h2 id="player-name">Player 1:You</h2>
           <span id="player-score">Score: 0</span>
         </div>
 
-        <div id="player-pick">
-        <div id="player-pick-1" onclick="player(1)"><img src="img/rock.png" class="gameImg" /></div>
-        <div id="player-pick-2"onclick="player(2)"><img src="img/paper.png" class="gameImg" /></div>
-        <div id="player-pick-3"onclick="player(3)"><img src="img/scissor.png" class="gameImg" /></div>
-      </div>
+        <ul id="player-pick">
+        <li id="player-pick-1" ><img src="img/rock.png" class="gameImg" /></li>
+        <li id="player-pick-2"><img src="img/paper.png" class="gameImg" /></li>
+        <li id="player-pick-3"><img src="img/scissor.png" class="gameImg" /></li>
+        </ul>
       </div>
 
       <div id="versus">vs</div>
@@ -40,12 +37,12 @@
           <span id="computer-score">Score: 0</span>
         </div>
 
-        <div id="computer-pick">
-        <div id="computer-pick-1"><img src="img/rock.png"  class="gameImg" /></div>
-        <div id="computer-pick-2"><img src="img/paper.png" class="gameImg" /></div>
-        <div id="computer-pick-3"><img src="img/scissor.png" class="gameImg" /></div>
-      </div>
-      </div>
+        <ul id="computer-pick">
+        <li id="computer-pick-1"><img src="img/rock.png"  class="gameImg" /></li>
+        <li id="computer-pick-2"><img src="img/paper.png" class="gameImg" /></li>
+        <li id="computer-pick-3"><img src="img/scissor.png" class="gameImg" /></li>
+        </ul>
+      </div> 
     </div>
 
     <div id="messageResult">&nbsp</h3>
