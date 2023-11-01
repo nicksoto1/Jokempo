@@ -1,53 +1,56 @@
-<h1 align="center">
-  Jokempo - Projeto em desenvolvimento
-</h1>
+ <h1 align="center">   Jokempo  </h1>
+
+![print](.github/preview.png)
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;
-  
+<a href="#-tecnologias">Tecnologias</a>   |   
+<a href="#-projeto">Projeto</a>   |   
+<a href="#-layout">Layout</a>   |   
+<a href="#-como-executar">Como executar</a>
 </p>
-
-![jokempo](https://user-images.githubusercontent.com/67668995/128616285-15c71809-5ce8-421d-86dc-050f8a9fb3a3.png)
-
-
-
-
-
-
-
 
 ## ✨ Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
+Esse projeto foi desenvolvido com as seguintes tecnologias: 
+
+- HTML e CSS
 - JavaScript
 
 
+----------------
+
 ## 💻 Projeto
+  O Jokempo é um projeto simples entre 2 jogadores,você contra a maquina,o objetivo é simples quem ganhar soma 10 pontos na pontuação e vai acumulando até parar de jogar,se empatar não recebe nada.
+----------------
 
-O Jokempo é um app de jogo 1x1 contra o computador.
+ ## 👀 Surge
+  Você pode visualizar o site  através [desse link]() 
+	<br>
+	OBS: Indisponivel no momento
 
-
+----------------
 
 ## 🚀 Como executar
+ Clonar o repositório:
+```git
+  git clone https://github.com/nicksoto1/Jokempo.git
 
- Clonar o repositorio
-```bash
-$ git clone https://github.com/nicksoto1/Jokempo.git
+```
+ Acessar o repertório:
+
+```shell
+ cd Jokempo
+
 ```
 
+```shell
+ code .
 
-
-Feito com 💙 by Dev Samurai https://www.youtube.com/watch?v=JP3eYU137t8&t=630s&ab_channel=DevSamurai
+```
 
 ## ✒️ Author
+  <a href="https://github.com/nicksoto1"><img style="border-radius: 50%;" width="100px;" src="https://github.com/nicksoto1.png"   /> </a>
 
-<a href="https://github.com/nicksoto1">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67668995?v=4" width="100px;" alt="Michael Soto"/>
- <br />
- <sub><b>Michael Soto</b></sub></a> <a href="https://github.com/nicksoto1">🚀</a>
+ <b>Michael Soto</b></a> <a href="https://github.com/nicksoto1">🚀</a>
  <br />
